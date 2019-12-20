@@ -1,0 +1,16 @@
+PODS:
+  - YSKit (0.1.0)
+
+DEPENDENCIES:
+  - YSKit (from `../`)
+
+EXTERNAL SOURCES:
+  YSKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YSKit: 1c8ed28f10bbd65563eccfe64c46a51f9df1adfe
+
+PODFILE CHECKSUM: b32cbebbaed06ef99712dcc5d38b9de072a9a6ff
+
+COCOAPODS: 1.7.5

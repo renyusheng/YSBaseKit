@@ -1,0 +1,6 @@
+framework module YSKit {
+  umbrella header "YSKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
