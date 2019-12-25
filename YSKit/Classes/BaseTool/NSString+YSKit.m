@@ -116,13 +116,13 @@
  *  @return <#return value description#>
  */
 -(BOOL)validatePhoneNumber{
-    NSString * MOBILE = @"^1(3[0-9]|4[0-9]|5[0-35-9]|8[025-9])\\d{8}$";
+      NSString * MOBILE = @"^1(3[0-9]|4[0-9]|5[0-35-9]|8[025-9])\\d{8}$";
     
     NSString * CM = @"^1(34[0-8]|(3[5-9]|5[017-9]|8[2378])\\d)\\d{7}$";
     
     NSString * CU = @"^1(3[0-2]|5[256]|8[56])\\d{8}$";
     
-    NSString * CT = @"^1((33|53|77|8[019])[0-9]|349)\\d{7}$";
+    NSString * CT = @"^1((33|53|73|77|8[019])[0-9]|349)\\d{7}$";
     
     NSString * PHS = @"^0(10|2[0-5789]|\\d{3})\\d{7,8}$";
     
@@ -151,11 +151,11 @@
  */
 
 -(BOOL)simpleValidatePhone{
-    NSPredicate *regextestmobile = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", @"^\\d{11}$"];
-    if ([regextestmobile evaluateWithObject:self]) {
-        return YES;
-    }
-    return NO;
+   NSPredicate *regextestmobile = [NSPredicate predicateWithFormat:@"SELF MATCHES %@", @"^\\d{11}$"];
+       if ([regextestmobile evaluateWithObject:self]) {
+           return YES;
+       }
+       return NO;
 }
 /**
  *  身份证号

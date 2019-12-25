@@ -40,6 +40,15 @@
 #define SCALE_5_5INCH_SCREEN SCALE_TO_SCREEN(1242.f,2208.f)
 //iPhone X屏幕比例
 #define SCALE_IPHONE_X_SCREEN SCALE_TO_SCREEN(1125.f,2436.f)
+//iPhone XR屏幕比例
+#define SCALE_IPHONE_XR_SCREEN SCALE_TO_SCREEN(828.f,1792.f)
+//iPhone XS屏幕比例
+#define SCALE_IPHONE_XS_SCREEN SCALE_TO_SCREEN(1125.f,2436.f)
+//iPhone XS MAX屏幕比例
+#define SCALE_IPHONE_XS_MAX_SCREEN SCALE_TO_SCREEN(1242.f,2688.f)
+
+//是否为刘海屏
+#define IS_FRINGE_SCREEN ([[UIApplication sharedApplication] statusBarFrame].size.height == 44)
 
 
 //app框架高度
