@@ -247,6 +247,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = renyusheng;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 8F7JQDCZDZ;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -494,6 +497,7 @@
 			baseConfigurationReference = FEECF31BC220DF7ECB428220 /* Pods-YSKit_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8F7JQDCZDZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YSKit/YSKit-Prefix.pch";
 				INFOPLIST_FILE = "YSKit/YSKit-Info.plist";
@@ -510,6 +514,7 @@
 			baseConfigurationReference = 1729599A4CA9BA37F24A7A9B /* Pods-YSKit_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8F7JQDCZDZ;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YSKit/YSKit-Prefix.pch";
 				INFOPLIST_FILE = "YSKit/YSKit-Info.plist";
