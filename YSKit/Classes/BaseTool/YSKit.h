@@ -73,13 +73,13 @@
 #define WDDeleteArchiveFile(name) [WDUtils wd_deleteArchiveWithFileName:name]
 
 
-//! Project version number for WDKit.
-FOUNDATION_EXPORT double WDKitVersionNumber;
+//! Project version number for YSKit.
+FOUNDATION_EXPORT double YSKitVersionNumber;
 
-//! Project version string for WDKit.
-FOUNDATION_EXPORT const unsigned char WDKitVersionString[];
+//! Project version string for YSKit.
+FOUNDATION_EXPORT const unsigned char YSKitVersionString[];
 
-// In this header, you should import all the public headers of your framework using statements like #import <WDKit/PublicHeader.h>
+// In this header, you should import all the public headers of your framework using statements like #import <YSKit/PublicHeader.h>
 
 
 

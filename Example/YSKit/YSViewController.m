@@ -7,7 +7,7 @@
 //
 
 #import "YSViewController.h"
-
+#import "YSKit.h"
 @interface YSViewController ()
 
 @end

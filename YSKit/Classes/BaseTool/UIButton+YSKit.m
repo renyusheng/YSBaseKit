@@ -47,7 +47,7 @@
 
 
 static const void *WDHandlersKey = &WDHandlersKey;
-@implementation UIButton (WDKit)
+@implementation UIButton (YSKit)
 
 /**
  设置Normal下的背景图片
