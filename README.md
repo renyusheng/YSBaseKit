@@ -12,12 +12,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 ## Requirements
 
 ## Installation
-
-YSKit is available through [CocoaPods](https://cocoapods.org). To install
+YSBaseKit is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'YSKit'
+pod 'YSBaseKit'
 ```
 
 ## Author
@@ -26,4 +25,4 @@ renyusheng, 770324717@qq.com
 
 ## License
 
-YSKit is available under the MIT license. See the LICENSE file for more info.
+YSBaseKit is available under the MIT license. See the LICENSE file for more info.
